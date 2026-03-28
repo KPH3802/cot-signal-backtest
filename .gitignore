@@ -1,0 +1,17 @@
+# Credentials and config
+config.py
+
+# Data files
+*.db
+*.csv
+*.xlsx
+
+# Results directory contents (keep the folder, not the files)
+results/*
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
