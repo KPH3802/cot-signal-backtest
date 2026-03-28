@@ -58,3 +58,9 @@ GOLD_GVZ_MIN = 15         # Only trade gold COT signals when GVZ >= this level
 WHEAT_RVOL_MAX = 0.23     # Only trade wheat COT signals when realized vol <= this level
 CORN_RVOL_MAX = 0.196     # Only trade corn COT signals when realized vol <= this level
 # Natural Gas: NO EDGE -- do not deploy
+
+# ---------------------------------------------------------------------------
+# VALIDATED VEHICLE ASSIGNMENTS (from vehicle analysis, Mar 27 2026)
+# ---------------------------------------------------------------------------
+CRUDE_BULL_VEHICLE = "XOP"   # BUY XOP on BULL signal, 13w hold, +9.68% alpha t=3.11***
+CRUDE_BEAR_VEHICLE = "USO"   # SHORT USO on BEAR signal, 8w hold, -10.07% alpha t=-5.52***
